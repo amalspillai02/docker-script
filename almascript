@@ -1,3 +1,2 @@
 FROM almalinux:latest
 RUN dnf update -y
-CMD ["bin/bash"]
