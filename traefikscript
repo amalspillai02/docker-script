@@ -1,0 +1,4 @@
+FROM traefik
+COPY ./traefik.yml /etc/traefik/traefik.yml
+EXPOSE 8080
+EXPOSE 80
